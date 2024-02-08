@@ -1,0 +1,566 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
+
+:root {
+--primary-color: #ffffff;
+--secondary-color: #000000;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Space Mono', monospace;
+    color: black;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--secondary-color);
+}
+
+.logoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    padding-left: 3rem;
+}
+
+.moon {
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.nav {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+}
+
+
+.nav li {
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    width: 200px;
+    color: var(--secondary-color);
+}
+
+.nav li:nth-child(2){
+    width: 55px;
+}
+
+.nav li:nth-child(1){
+    width: 55px;
+}
+.nav li:nth-child(3){
+    width: 115px;
+}
+.nav li:nth-child(4){
+    width: 65px;
+}
+.nav li:nth-child(5){
+    width: 55px;
+}
+
+.nav li a:hover {
+    border-bottom: 4px solid var(--secondary-color);
+    font-weight: 900;
+}
+
+.movie {
+    background-color: rgba(221, 221, 221, 0.3);
+    padding: 3px 6px;
+    color: var(--secondary-color);
+    border-radius: 3px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.movieDiv {
+    margin-bottom: 10px;
+}
+.lb a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--secondary-color);
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.recent {
+    font-size: 30px;
+    color: var(--secondary-color);
+}
+
+.title {
+    font-size: 19px;
+    font-family: 900;
+    color: var(--secondary-color);
+    width: 400px;
+}
+
+.mediaDiv {
+    width: 900px;
+}
+
+
+.media {
+    width: 40%;
+}
+.img-fluid {
+    width: 200px;
+}
+
+
+.book p {
+    color: rgb(170, 170, 170);
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+h3 {
+    font-weight: 900;
+}
+
+.abt {
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width: 992px){
+    .work {
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .m-0{
+        font-size: 14px;
+    }
+
+    .coming p{
+        font-size: 13px;
+    }
+
+    .year {
+        font-size: 12px;
+    }
+   
+    .work .work-project-image { 
+      flex-wrap: nowrap;
+       display: flex;
+       overflow: auto;
+       width: 100%;
+    }
+
+    .img-div{
+        width: 100%;
+    }
+    .img-div img{
+        width: 200px;
+    }
+    p .reach {
+        margin-left: 2rem;
+    }
+
+    .nav {
+        display: none;
+        width: 0%;
+    }
+
+    .navigation__item a:hover {
+        border-bottom: 4px solid var(--secondary-color);
+        font-weight: 900;
+    }
+
+    .nav_content {
+        width: 0%;
+    }
+
+    .navigation__item a {
+        text-decoration: none;
+        color: black;
+    }
+
+    label img {
+        display: block;
+    }
+
+    .open {
+        display: block;
+      }
+
+   .logoDiv{
+    padding-left: 2rem;
+    margin-bottom: 45px;
+   }
+
+   .logo{
+    font-size: 25px;
+    font-weight: 700;
+   }
+
+   .log {
+    padding-left: 2rem;
+   }
+
+   .abt {
+    display: block;
+    text-transform: lowercase;
+    font-size: 20px;
+    font-weight: 700;
+    line-height:44.43px;
+   }
+
+   .navigation__button {
+    display: block;
+   }
+
+   .fanhuddle {
+    
+    background: #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+    width: 690;
+  }
+
+   .about-Writing {
+    padding-left: 3rem;
+   }
+
+   .writing {
+   
+    margin-right: 25px;
+    font-size: 15px;
+   }
+   .PD .work{
+    width: 100%;
+   }
+   
+}
+
+.fanH-img img{
+   
+    width: 100%;
+}
+
+  .ryan {
+    margin: 0;
+  }
+
+  .book {
+    margin-top: 20px;
+  }
+
+  
+  .img-div:nth-child(6) {
+    position: relative;
+    text-align: center;
+  }
+  .more {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+.work-project-image {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    gap: 20px;
+}
+
+
+
+  .coming {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+.m-0 {
+    font-weight: 600;
+}
+
+.coming {
+    color:#989898;
+}
+
+.queue-back a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.queue-back {
+    margin-bottom: 0;
+}
+
+.arrowback {
+    margin-right: 10px;
+}
+
+.queue-project-image {
+    width: 100%;
+}
+
+.queue {
+    width: 50%;
+}
+
+.queue-project-image img {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.open {
+    display: none;
+  }
+
+.qWrite {
+    margin-bottom: 2rem;
+    font-size: 15px;
+}
+
+.Qlink {
+    word-break: break-all;
+}
+
+.Qlink a {
+    color:black;
+}
+
+.navigation__checkbox {
+    display: none;
+}
+
+label img {
+    display: none;
+}
+
+.navigation__button {
+
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 300;
+    
+    cursor: pointer;
+}
+
+.navigation__background {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background: white;
+    background-size: cover;
+    background-position: center;
+    z-index: 100;
+    transition: all 800ms cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.navigation__nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    opacity: 0;
+    width: 0;
+    visibility: hidden;
+    z-index: 200;
+    transition: all 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.navigation__list {
+    /*@include center;*/
+    position: absolute;
+    top: 28%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 100%;
+    list-style: none;
+}
+
+.navigation__item {
+    margin-bottom: 1rem;
+}
+
+.reach a {
+    color: black;
+}
+
+
+
+
+
+.navigation__link span {
+    margin-right: 1rem;
+    display: inline-block;
+}
+
+.navigation__link:hover {
+    
+    transform: scale(1.1);
+}
+
+.navigation__checkbox:checked~.navigation__background {
+    transform: scale(80)
+}
+
+.navigation__checkbox:checked~.navigation__nav {
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.navigation__icon {
+
+    position: relative;
+    margin-top: 2.5rem;
+}
+
+
+
+.navigation__icon,
+.navigation__icon::before,
+.navigation__icon::after {
+    display: inline-block;
+    width: 2.2rem;
+    height: 2px;
+    
+}
+
+
+
+.navigation__icon::before,
+.navigation__icon::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    transition: all 200ms;
+}
+
+.navigation__icon::before {
+    top: -.8rem;
+}
+
+.navigation__icon::after {
+    top: .8rem;
+}
+
+.navigation__button:hover .navigation__icon::before {
+    top: -1rem;
+}
+
+.navigation__button:hover .navigation__icon::after {
+    top: 1rem;
+}
+
+.navigation__checkbox:checked+.navigation__button .navigation__icon {
+    background-color: transparent;
+}
+
+.navigation__checkbox:checked+.navigation__button .navigation__icon::before {
+    top: 0;
+    transform: rotate(135deg);
+}
+
+.navigation__checkbox:checked+.navigation__button .navigation__icon::after {
+    top: 0;
+    transform: rotate(-135deg);
+}
+
+
+
+/*-----------------------*/
+#by {
+  font-family: 'Arima Madurai', cursive;
+  color: #4A676A;
+  font-size: 10px;
+  position: absolute;
+  top: 22%;
+  right: 2.5%; 
+}
+
+
+
+
+
