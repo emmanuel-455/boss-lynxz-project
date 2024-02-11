@@ -313,6 +313,8 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
+    background: #f0f0f0;
+    border-radius: 10px;
 }
 
   .ryan {
@@ -334,6 +336,10 @@ h3 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+  }
+
+  .fan-details {
+    padding-left: 2rem;
   }
   
 .work-project-image {
@@ -361,9 +367,6 @@ h3 {
     margin-top: 5rem;
 }
 
-.fanhuddle{
-    background: rgb(179, 179, 179);
-}
 
 .queue-back a{
     text-decoration: none;
