@@ -282,16 +282,13 @@ h3 {
     display: block;
    }
 
-   .fanhuddle {
-    
-    background: #F0F0F0;
-    display: flex;
-    justify-content: space-between;
-    align-items:end;
-    padding-top: 1rem;
-    margin-bottom: 2rem;
-    width: 690;
-  }
+   .img-div {
+    width: 200px
+    }
+
+    .img-div img {
+        width: 200px;
+    }
 
    .about-Writing {
     padding-left: 3rem;
@@ -302,15 +299,20 @@ h3 {
     margin-right: 25px;
     font-size: 15px;
    }
-   .PD .work{
-    width: 100%;
-   }
+  
    
 }
 
 .fanH-img img{
-   
     width: 100%;
+}
+
+.fanhuddle {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
   .ryan {
@@ -335,25 +337,32 @@ h3 {
   }
   
 .work-project-image {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 3rem;
     gap: 20px;
 }
 
+.img-div {
+    width: 243px
+}
+
+.img-div img {
+    width: 243px;
+}
 
 
-  .coming {
-    margin-bottom: 1rem;
-    padding-left: 1.5rem;
-  }
 .m-0 {
     font-weight: 600;
 }
 
 .coming {
     color:#989898;
+    margin-top: 5rem;
+}
+
+.fanhuddle{
+    background: rgb(179, 179, 179);
 }
 
 .queue-back a{
