@@ -195,6 +195,9 @@ h3 {
 
 
 @media only screen and (max-width: 992px){
+    .p-div {
+        margin-bottom: 6rem;
+    }
     .work {
         padding: 0;
         overflow: hidden;
@@ -212,11 +215,18 @@ h3 {
         font-size: 12px;
     }
    
-    .work .work-project-image { 
+    .work .work-project-image {
+        margin-left: 2.5rem; 
       flex-wrap: nowrap;
        display: flex;
        overflow: auto;
        width: 100%;
+    }
+
+    .work h3 {
+        margin-left: 2.5rem;
+        font-size: 20px;
+        margin-bottom: 20px;
     }
 
     .img-div{
@@ -299,8 +309,39 @@ h3 {
     margin-right: 25px;
     font-size: 15px;
    }
-  
+
+   .fan-details .year {
+    font-size: 15px;
+    width: 120px;
+    font-weight: 400;
+   }
+
+   .m-0 {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.fan-details .coming {
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.fanhuddle .huddle .maplerad {
+    width: 170px;
+}
+
+.fanhuddle .huddle {
+    margin-top: 1rem;
+}
+
+.fanhuddle {
+    margin-left: 2.5rem;
+}
    
+}
+
+.fan-details .coming {
+    text-decoration: underline;
 }
 
 .fanH-img img{
