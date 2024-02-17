@@ -116,6 +116,7 @@ h2 {
 .recent {
     font-size: 30px;
     color: var(--secondary-color);
+    font-weight: 700;
 }
 
 .title {
@@ -127,11 +128,17 @@ h2 {
 
 .mediaDiv {
     width: 900px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 
+.detail {
+    margin-left: 2rem;
+}
 
 .media {
-    width: 40%;
+    width: 60%;
 }
 .img-fluid {
     width: 200px;
@@ -195,6 +202,14 @@ h3 {
 
 
 @media only screen and (max-width: 992px){
+
+    .media {
+        width: 100%;
+    }
+
+    .mediaDiv {
+        width: 900px;
+    }
     .p-div {
         margin-bottom: 6rem;
     }
