@@ -102,7 +102,7 @@ h2 {
 }
 
 .movieDiv {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .lb a {
     text-decoration: none;
@@ -110,7 +110,7 @@ h2 {
     padding-bottom: 5px;
     border-bottom: 2px solid var(--secondary-color);
     font-weight: 500;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .recent {
@@ -120,7 +120,7 @@ h2 {
 }
 
 .title {
-    font-size: 19px;
+    font-size: 15px;
     font-family: 900;
     color: var(--secondary-color);
     width: 400px;
@@ -130,7 +130,7 @@ h2 {
     width: 900px;
     display: flex;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .detail {
@@ -198,13 +198,44 @@ h3 {
     display: none;
 }
 
-
+.logoDi {
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+}
 
 
 @media only screen and (max-width: 992px){
+    .PD {
+        padding-left: 2rem;
+    }
+
+    .recent {
+        font-size: 20px;
+    }
+
+    .logoDi {
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+    }
+
+    .mediaDiv {
+        width: 900px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
 
     .media {
         width: 100%;
+    }
+
+    .title {
+        margin-bottom: 3px;
+    }
+
+    .imgDiv img{
+        width: 120px;
+        height: 130px;
     }
 
     .mediaDiv {
@@ -218,8 +249,12 @@ h3 {
         overflow: hidden;
     }
 
+    .detail {
+        margin-left: 1rem;
+    }
+
     .m-0{
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .coming p{
@@ -333,7 +368,6 @@ h3 {
 
    .m-0 {
     font-weight: 700;
-    font-size: 17px;
 }
 
 .fan-details .coming {
