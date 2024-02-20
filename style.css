@@ -266,7 +266,6 @@ h3 {
     }
    
     .work .work-project-image {
-        margin-left: 2.5rem; 
       flex-wrap: nowrap;
        display: flex;
        overflow: auto;
@@ -274,7 +273,7 @@ h3 {
     }
 
     .work h3 {
-        margin-left: 2.5rem;
+       
         font-size: 20px;
         margin-bottom: 20px;
     }
@@ -318,7 +317,7 @@ h3 {
 
    .logoDiv{
     padding-left: 2rem;
-    margin-bottom: 45px;
+    
    }
 
    .logo{
@@ -383,8 +382,16 @@ h3 {
     margin-top: 1rem;
 }
 
-.fanhuddle {
-    margin-left: 2.5rem;
+.logoDiv {
+    padding-left: 1.2rem;
+}
+
+.about-Writing {
+    padding-left: 0rem;
+}
+
+.logo {
+    margin-bottom: 0;
 }
    
 }
@@ -526,8 +533,8 @@ label img {
 
 .navigation__background {
     position: fixed;
-    top: 1rem;
     right: 1rem;
+    top: 1rem;
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
