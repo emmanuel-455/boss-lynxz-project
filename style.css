@@ -194,6 +194,11 @@ h3 {
     font-weight: 900;
 }
 
+.contact_link li a {
+    text-decoration: none;
+    color: black;
+}
+
 .abt {
     display: none;
 }
