@@ -194,6 +194,10 @@ h3 {
     font-weight: 900;
 }
 
+.design {
+    font-weight: 700;
+}
+
 .contact_link li a {
     text-decoration: none;
     color: black;
@@ -228,6 +232,10 @@ h3 {
         display: flex;
         align-items: center;
         margin-bottom: 2rem;
+    }
+
+    .design {
+        margin-bottom: 2.5rem;
     }
 
     .media {
